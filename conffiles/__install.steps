@@ -1,0 +1,5 @@
+
+root: C:\desyapi
+run:  ARM\.util\doocs_ARM_server.exe
+env:  ENSHOST=doocsens1:doocsens2
+env:  Path=${Path};$[root]\ARM\dll;$[root]\ARM\bin
